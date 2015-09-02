@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0438B1CA13430E8B00601275 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0438B1C913430E8B00601275 /* UIKit.framework */; };
+		0438B1CC13430E8B00601275 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0438B1CB13430E8B00601275 /* Foundation.framework */; };
+		0438B1CE13430E8B00601275 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0438B1CD13430E8B00601275 /* CoreGraphics.framework */; };
+		0438B1D413430E8B00601275 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0438B1D213430E8B00601275 /* InfoPlist.strings */; };
+		0438B1D713430E8B00601275 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438B1D613430E8B00601275 /* main.m */; };
+		0438B1DA13430E8B00601275 /* ContactSample01AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438B1D913430E8B00601275 /* ContactSample01AppDelegate.m */; };
+		0438B1DD13430E8B00601275 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0438B1DB13430E8B00601275 /* MainWindow.xib */; };
+		0438B1E013430E8B00601275 /* ContactSample01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438B1DF13430E8B00601275 /* ContactSample01ViewController.m */; };
+		0438B1E313430E8B00601275 /* ContactSample01ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0438B1E113430E8B00601275 /* ContactSample01ViewController.xib */; };
+		0438B1EB13431A0A00601275 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0438B1E913431A0A00601275 /* AddressBook.framework */; };
+		0438B1EC13431A0A00601275 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0438B1EA13431A0A00601275 /* AddressBookUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0438B1C513430E8B00601275 /* ContactSample01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactSample01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0438B1C913430E8B00601275 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0438B1CB13430E8B00601275 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0438B1CD13430E8B00601275 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0438B1D113430E8B00601275 /* ContactSample01-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ContactSample01-Info.plist"; sourceTree = "<group>"; };
+		0438B1D313430E8B00601275 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0438B1D513430E8B00601275 /* ContactSample01-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ContactSample01-Prefix.pch"; sourceTree = "<group>"; };
+		0438B1D613430E8B00601275 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0438B1D813430E8B00601275 /* ContactSample01AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactSample01AppDelegate.h; sourceTree = "<group>"; };
+		0438B1D913430E8B00601275 /* ContactSample01AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactSample01AppDelegate.m; sourceTree = "<group>"; };
+		0438B1DC13430E8B00601275 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		0438B1DE13430E8B00601275 /* ContactSample01ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactSample01ViewController.h; sourceTree = "<group>"; };
+		0438B1DF13430E8B00601275 /* ContactSample01ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactSample01ViewController.m; sourceTree = "<group>"; };
+		0438B1E213430E8B00601275 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ContactSample01ViewController.xib; sourceTree = "<group>"; };
+		0438B1E913431A0A00601275 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
+		0438B1EA13431A0A00601275 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AddressBookUI.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0438B1C213430E8B00601275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0438B1CA13430E8B00601275 /* UIKit.framework in Frameworks */,
+				0438B1CC13430E8B00601275 /* Foundation.framework in Frameworks */,
+				0438B1CE13430E8B00601275 /* CoreGraphics.framework in Frameworks */,
+				0438B1EB13431A0A00601275 /* AddressBook.framework in Frameworks */,
+				0438B1EC13431A0A00601275 /* AddressBookUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0438B1BA13430E8B00601275 = {
+			isa = PBXGroup;
+			children = (
+				0438B1CF13430E8B00601275 /* ContactSample01 */,
+				0438B1C813430E8B00601275 /* Frameworks */,
+				0438B1C613430E8B00601275 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0438B1C613430E8B00601275 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0438B1C513430E8B00601275 /* ContactSample01.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0438B1C813430E8B00601275 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0438B1E913431A0A00601275 /* AddressBook.framework */,
+				0438B1EA13431A0A00601275 /* AddressBookUI.framework */,
+				0438B1C913430E8B00601275 /* UIKit.framework */,
+				0438B1CB13430E8B00601275 /* Foundation.framework */,
+				0438B1CD13430E8B00601275 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0438B1CF13430E8B00601275 /* ContactSample01 */ = {
+			isa = PBXGroup;
+			children = (
+				0438B1D813430E8B00601275 /* ContactSample01AppDelegate.h */,
+				0438B1D913430E8B00601275 /* ContactSample01AppDelegate.m */,
+				0438B1DB13430E8B00601275 /* MainWindow.xib */,
+				0438B1DE13430E8B00601275 /* ContactSample01ViewController.h */,
+				0438B1DF13430E8B00601275 /* ContactSample01ViewController.m */,
+				0438B1E113430E8B00601275 /* ContactSample01ViewController.xib */,
+				0438B1D013430E8B00601275 /* Supporting Files */,
+			);
+			path = ContactSample01;
+			sourceTree = "<group>";
+		};
+		0438B1D013430E8B00601275 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0438B1D113430E8B00601275 /* ContactSample01-Info.plist */,
+				0438B1D213430E8B00601275 /* InfoPlist.strings */,
+				0438B1D513430E8B00601275 /* ContactSample01-Prefix.pch */,
+				0438B1D613430E8B00601275 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0438B1C413430E8B00601275 /* ContactSample01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0438B1E613430E8B00601275 /* Build configuration list for PBXNativeTarget "ContactSample01" */;
+			buildPhases = (
+				0438B1C113430E8B00601275 /* Sources */,
+				0438B1C213430E8B00601275 /* Frameworks */,
+				0438B1C313430E8B00601275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContactSample01;
+			productName = ContactSample01;
+			productReference = 0438B1C513430E8B00601275 /* ContactSample01.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0438B1BC13430E8B00601275 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0438B1BF13430E8B00601275 /* Build configuration list for PBXProject "ContactSample01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0438B1BA13430E8B00601275;
+			productRefGroup = 0438B1C613430E8B00601275 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0438B1C413430E8B00601275 /* ContactSample01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0438B1C313430E8B00601275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0438B1D413430E8B00601275 /* InfoPlist.strings in Resources */,
+				0438B1DD13430E8B00601275 /* MainWindow.xib in Resources */,
+				0438B1E313430E8B00601275 /* ContactSample01ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0438B1C113430E8B00601275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0438B1D713430E8B00601275 /* main.m in Sources */,
+				0438B1DA13430E8B00601275 /* ContactSample01AppDelegate.m in Sources */,
+				0438B1E013430E8B00601275 /* ContactSample01ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0438B1D213430E8B00601275 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0438B1D313430E8B00601275 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0438B1DB13430E8B00601275 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0438B1DC13430E8B00601275 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		0438B1E113430E8B00601275 /* ContactSample01ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0438B1E213430E8B00601275 /* en */,
+			);
+			name = ContactSample01ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0438B1E413430E8B00601275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0438B1E513430E8B00601275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		0438B1E713430E8B00601275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ContactSample01/ContactSample01-Prefix.pch";
+				INFOPLIST_FILE = "ContactSample01/ContactSample01-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0438B1E813430E8B00601275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ContactSample01/ContactSample01-Prefix.pch";
+				INFOPLIST_FILE = "ContactSample01/ContactSample01-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0438B1BF13430E8B00601275 /* Build configuration list for PBXProject "ContactSample01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0438B1E413430E8B00601275 /* Debug */,
+				0438B1E513430E8B00601275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0438B1E613430E8B00601275 /* Build configuration list for PBXNativeTarget "ContactSample01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0438B1E713430E8B00601275 /* Debug */,
+				0438B1E813430E8B00601275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0438B1BC13430E8B00601275 /* Project object */;
+}

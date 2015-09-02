@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04FB98071338631500DA54E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FB98061338631500DA54E8 /* UIKit.framework */; };
+		04FB98091338631500DA54E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FB98081338631500DA54E8 /* Foundation.framework */; };
+		04FB980B1338631500DA54E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FB980A1338631500DA54E8 /* CoreGraphics.framework */; };
+		04FB98111338631500DA54E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04FB980F1338631500DA54E8 /* InfoPlist.strings */; };
+		04FB98141338631500DA54E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB98131338631500DA54E8 /* main.m */; };
+		04FB98171338631500DA54E8 /* InAppSMSSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB98161338631500DA54E8 /* InAppSMSSampleAppDelegate.m */; };
+		04FB981A1338631500DA54E8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FB98181338631500DA54E8 /* MainWindow.xib */; };
+		04FB981D1338631500DA54E8 /* InAppSMSSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB981C1338631500DA54E8 /* InAppSMSSampleViewController.m */; };
+		04FB98201338631500DA54E8 /* InAppSMSSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FB981E1338631500DA54E8 /* InAppSMSSampleViewController.xib */; };
+		04FB982F1338E1BC00DA54E8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FB982E1338E1BC00DA54E8 /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04FB98021338631500DA54E8 /* InAppSMSSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InAppSMSSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FB98061338631500DA54E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04FB98081338631500DA54E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04FB980A1338631500DA54E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04FB980E1338631500DA54E8 /* InAppSMSSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InAppSMSSample-Info.plist"; sourceTree = "<group>"; };
+		04FB98101338631500DA54E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04FB98121338631500DA54E8 /* InAppSMSSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InAppSMSSample-Prefix.pch"; sourceTree = "<group>"; };
+		04FB98131338631500DA54E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04FB98151338631500DA54E8 /* InAppSMSSampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InAppSMSSampleAppDelegate.h; sourceTree = "<group>"; };
+		04FB98161338631500DA54E8 /* InAppSMSSampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InAppSMSSampleAppDelegate.m; sourceTree = "<group>"; };
+		04FB98191338631500DA54E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		04FB981B1338631500DA54E8 /* InAppSMSSampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InAppSMSSampleViewController.h; sourceTree = "<group>"; };
+		04FB981C1338631500DA54E8 /* InAppSMSSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InAppSMSSampleViewController.m; sourceTree = "<group>"; };
+		04FB981F1338631500DA54E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/InAppSMSSampleViewController.xib; sourceTree = "<group>"; };
+		04FB982E1338E1BC00DA54E8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04FB97FF1338631500DA54E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FB98071338631500DA54E8 /* UIKit.framework in Frameworks */,
+				04FB98091338631500DA54E8 /* Foundation.framework in Frameworks */,
+				04FB980B1338631500DA54E8 /* CoreGraphics.framework in Frameworks */,
+				04FB982F1338E1BC00DA54E8 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04FB97F71338631500DA54E8 = {
+			isa = PBXGroup;
+			children = (
+				04FB980C1338631500DA54E8 /* InAppSMSSample */,
+				04FB98051338631500DA54E8 /* Frameworks */,
+				04FB98031338631500DA54E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04FB98031338631500DA54E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04FB98021338631500DA54E8 /* InAppSMSSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04FB98051338631500DA54E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04FB982E1338E1BC00DA54E8 /* MessageUI.framework */,
+				04FB98061338631500DA54E8 /* UIKit.framework */,
+				04FB98081338631500DA54E8 /* Foundation.framework */,
+				04FB980A1338631500DA54E8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04FB980C1338631500DA54E8 /* InAppSMSSample */ = {
+			isa = PBXGroup;
+			children = (
+				04FB98151338631500DA54E8 /* InAppSMSSampleAppDelegate.h */,
+				04FB98161338631500DA54E8 /* InAppSMSSampleAppDelegate.m */,
+				04FB98181338631500DA54E8 /* MainWindow.xib */,
+				04FB981B1338631500DA54E8 /* InAppSMSSampleViewController.h */,
+				04FB981C1338631500DA54E8 /* InAppSMSSampleViewController.m */,
+				04FB981E1338631500DA54E8 /* InAppSMSSampleViewController.xib */,
+				04FB980D1338631500DA54E8 /* Supporting Files */,
+			);
+			path = InAppSMSSample;
+			sourceTree = "<group>";
+		};
+		04FB980D1338631500DA54E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04FB980E1338631500DA54E8 /* InAppSMSSample-Info.plist */,
+				04FB980F1338631500DA54E8 /* InfoPlist.strings */,
+				04FB98121338631500DA54E8 /* InAppSMSSample-Prefix.pch */,
+				04FB98131338631500DA54E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04FB98011338631500DA54E8 /* InAppSMSSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FB98231338631500DA54E8 /* Build configuration list for PBXNativeTarget "InAppSMSSample" */;
+			buildPhases = (
+				04FB97FE1338631500DA54E8 /* Sources */,
+				04FB97FF1338631500DA54E8 /* Frameworks */,
+				04FB98001338631500DA54E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InAppSMSSample;
+			productName = InAppSMSSample;
+			productReference = 04FB98021338631500DA54E8 /* InAppSMSSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04FB97F91338631500DA54E8 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 04FB97FC1338631500DA54E8 /* Build configuration list for PBXProject "InAppSMSSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04FB97F71338631500DA54E8;
+			productRefGroup = 04FB98031338631500DA54E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04FB98011338631500DA54E8 /* InAppSMSSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04FB98001338631500DA54E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FB98111338631500DA54E8 /* InfoPlist.strings in Resources */,
+				04FB981A1338631500DA54E8 /* MainWindow.xib in Resources */,
+				04FB98201338631500DA54E8 /* InAppSMSSampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04FB97FE1338631500DA54E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FB98141338631500DA54E8 /* main.m in Sources */,
+				04FB98171338631500DA54E8 /* InAppSMSSampleAppDelegate.m in Sources */,
+				04FB981D1338631500DA54E8 /* InAppSMSSampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04FB980F1338631500DA54E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FB98101338631500DA54E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04FB98181338631500DA54E8 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FB98191338631500DA54E8 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		04FB981E1338631500DA54E8 /* InAppSMSSampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FB981F1338631500DA54E8 /* en */,
+			);
+			name = InAppSMSSampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04FB98211338631500DA54E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04FB98221338631500DA54E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		04FB98241338631500DA54E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InAppSMSSample/InAppSMSSample-Prefix.pch";
+				INFOPLIST_FILE = "InAppSMSSample/InAppSMSSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04FB98251338631500DA54E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InAppSMSSample/InAppSMSSample-Prefix.pch";
+				INFOPLIST_FILE = "InAppSMSSample/InAppSMSSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04FB97FC1338631500DA54E8 /* Build configuration list for PBXProject "InAppSMSSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FB98211338631500DA54E8 /* Debug */,
+				04FB98221338631500DA54E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FB98231338631500DA54E8 /* Build configuration list for PBXNativeTarget "InAppSMSSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FB98241338631500DA54E8 /* Debug */,
+				04FB98251338631500DA54E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04FB97F91338631500DA54E8 /* Project object */;
+}

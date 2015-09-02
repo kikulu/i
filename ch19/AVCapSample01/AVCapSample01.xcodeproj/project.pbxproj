@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043594E212FDC3E500452599 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043594E112FDC3E500452599 /* UIKit.framework */; };
+		043594E412FDC3E500452599 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043594E312FDC3E500452599 /* Foundation.framework */; };
+		043594E612FDC3E500452599 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043594E512FDC3E500452599 /* CoreGraphics.framework */; };
+		043594EC12FDC3E500452599 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 043594EA12FDC3E500452599 /* InfoPlist.strings */; };
+		043594EF12FDC3E500452599 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043594EE12FDC3E500452599 /* main.m */; };
+		043594F212FDC3E500452599 /* AVCapSample01AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043594F112FDC3E500452599 /* AVCapSample01AppDelegate.m */; };
+		043594F512FDC3E600452599 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043594F312FDC3E600452599 /* MainWindow.xib */; };
+		043594F812FDC3E600452599 /* AVCapSample01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043594F712FDC3E600452599 /* AVCapSample01ViewController.m */; };
+		043594FB12FDC3E600452599 /* AVCapSample01ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043594F912FDC3E600452599 /* AVCapSample01ViewController.xib */; };
+		0435950212FDC45C00452599 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0435950112FDC45C00452599 /* AVFoundation.framework */; };
+		0435950412FDC46600452599 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0435950312FDC46600452599 /* CoreMedia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		043594DD12FDC3E500452599 /* AVCapSample01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVCapSample01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043594E112FDC3E500452599 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		043594E312FDC3E500452599 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		043594E512FDC3E500452599 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		043594E912FDC3E500452599 /* AVCapSample01-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AVCapSample01-Info.plist"; sourceTree = "<group>"; };
+		043594EB12FDC3E500452599 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		043594ED12FDC3E500452599 /* AVCapSample01-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVCapSample01-Prefix.pch"; sourceTree = "<group>"; };
+		043594EE12FDC3E500452599 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		043594F012FDC3E500452599 /* AVCapSample01AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVCapSample01AppDelegate.h; sourceTree = "<group>"; };
+		043594F112FDC3E500452599 /* AVCapSample01AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVCapSample01AppDelegate.m; sourceTree = "<group>"; };
+		043594F412FDC3E600452599 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		043594F612FDC3E600452599 /* AVCapSample01ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVCapSample01ViewController.h; sourceTree = "<group>"; };
+		043594F712FDC3E600452599 /* AVCapSample01ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVCapSample01ViewController.m; sourceTree = "<group>"; };
+		043594FA12FDC3E600452599 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AVCapSample01ViewController.xib; sourceTree = "<group>"; };
+		0435950112FDC45C00452599 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0435950312FDC46600452599 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043594DA12FDC3E500452599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043594E212FDC3E500452599 /* UIKit.framework in Frameworks */,
+				043594E412FDC3E500452599 /* Foundation.framework in Frameworks */,
+				043594E612FDC3E500452599 /* CoreGraphics.framework in Frameworks */,
+				0435950212FDC45C00452599 /* AVFoundation.framework in Frameworks */,
+				0435950412FDC46600452599 /* CoreMedia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043594D212FDC3E400452599 = {
+			isa = PBXGroup;
+			children = (
+				043594E712FDC3E500452599 /* AVCapSample01 */,
+				043594E012FDC3E500452599 /* Frameworks */,
+				043594DE12FDC3E500452599 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		043594DE12FDC3E500452599 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043594DD12FDC3E500452599 /* AVCapSample01.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043594E012FDC3E500452599 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0435950312FDC46600452599 /* CoreMedia.framework */,
+				0435950112FDC45C00452599 /* AVFoundation.framework */,
+				043594E112FDC3E500452599 /* UIKit.framework */,
+				043594E312FDC3E500452599 /* Foundation.framework */,
+				043594E512FDC3E500452599 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		043594E712FDC3E500452599 /* AVCapSample01 */ = {
+			isa = PBXGroup;
+			children = (
+				043594F012FDC3E500452599 /* AVCapSample01AppDelegate.h */,
+				043594F112FDC3E500452599 /* AVCapSample01AppDelegate.m */,
+				043594F312FDC3E600452599 /* MainWindow.xib */,
+				043594F612FDC3E600452599 /* AVCapSample01ViewController.h */,
+				043594F712FDC3E600452599 /* AVCapSample01ViewController.m */,
+				043594F912FDC3E600452599 /* AVCapSample01ViewController.xib */,
+				043594E812FDC3E500452599 /* Supporting Files */,
+			);
+			path = AVCapSample01;
+			sourceTree = "<group>";
+		};
+		043594E812FDC3E500452599 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				043594E912FDC3E500452599 /* AVCapSample01-Info.plist */,
+				043594EA12FDC3E500452599 /* InfoPlist.strings */,
+				043594ED12FDC3E500452599 /* AVCapSample01-Prefix.pch */,
+				043594EE12FDC3E500452599 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043594DC12FDC3E500452599 /* AVCapSample01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043594FE12FDC3E600452599 /* Build configuration list for PBXNativeTarget "AVCapSample01" */;
+			buildPhases = (
+				043594D912FDC3E500452599 /* Sources */,
+				043594DA12FDC3E500452599 /* Frameworks */,
+				043594DB12FDC3E500452599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVCapSample01;
+			productName = AVCapSample01;
+			productReference = 043594DD12FDC3E500452599 /* AVCapSample01.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043594D412FDC3E400452599 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 043594D712FDC3E400452599 /* Build configuration list for PBXProject "AVCapSample01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 043594D212FDC3E400452599;
+			productRefGroup = 043594DE12FDC3E500452599 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043594DC12FDC3E500452599 /* AVCapSample01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043594DB12FDC3E500452599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043594EC12FDC3E500452599 /* InfoPlist.strings in Resources */,
+				043594F512FDC3E600452599 /* MainWindow.xib in Resources */,
+				043594FB12FDC3E600452599 /* AVCapSample01ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043594D912FDC3E500452599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043594EF12FDC3E500452599 /* main.m in Sources */,
+				043594F212FDC3E500452599 /* AVCapSample01AppDelegate.m in Sources */,
+				043594F812FDC3E600452599 /* AVCapSample01ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		043594EA12FDC3E500452599 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043594EB12FDC3E500452599 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		043594F312FDC3E600452599 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043594F412FDC3E600452599 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		043594F912FDC3E600452599 /* AVCapSample01ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043594FA12FDC3E600452599 /* en */,
+			);
+			name = AVCapSample01ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043594FC12FDC3E600452599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		043594FD12FDC3E600452599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		043594FF12FDC3E600452599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVCapSample01/AVCapSample01-Prefix.pch";
+				INFOPLIST_FILE = "AVCapSample01/AVCapSample01-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0435950012FDC3E600452599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVCapSample01/AVCapSample01-Prefix.pch";
+				INFOPLIST_FILE = "AVCapSample01/AVCapSample01-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043594D712FDC3E400452599 /* Build configuration list for PBXProject "AVCapSample01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043594FC12FDC3E600452599 /* Debug */,
+				043594FD12FDC3E600452599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043594FE12FDC3E600452599 /* Build configuration list for PBXNativeTarget "AVCapSample01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043594FF12FDC3E600452599 /* Debug */,
+				0435950012FDC3E600452599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043594D412FDC3E400452599 /* Project object */;
+}

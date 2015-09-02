@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3F2C1C5134CC5870023D75A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F2C1C4134CC5870023D75A /* UIKit.framework */; };
+		D3F2C1C7134CC5870023D75A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F2C1C6134CC5870023D75A /* Foundation.framework */; };
+		D3F2C1C9134CC5870023D75A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F2C1C8134CC5870023D75A /* CoreGraphics.framework */; };
+		D3F2C1CF134CC5870023D75A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3F2C1CD134CC5870023D75A /* InfoPlist.strings */; };
+		D3F2C1D2134CC5870023D75A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F2C1D1134CC5870023D75A /* main.m */; };
+		D3F2C1D5134CC5870023D75A /* DraggableAnnotationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F2C1D4134CC5870023D75A /* DraggableAnnotationAppDelegate.m */; };
+		D3F2C1D8134CC5870023D75A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3F2C1D6134CC5870023D75A /* MainWindow.xib */; };
+		D3F2C1DB134CC5870023D75A /* DraggableAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F2C1DA134CC5870023D75A /* DraggableAnnotationViewController.m */; };
+		D3F2C1DE134CC5870023D75A /* DraggableAnnotationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3F2C1DC134CC5870023D75A /* DraggableAnnotationViewController.xib */; };
+		D3F2C1E5134CC5DB0023D75A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F2C1E4134CC5DB0023D75A /* MapKit.framework */; };
+		D3F2C1E7134CC5E40023D75A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F2C1E6134CC5E40023D75A /* CoreLocation.framework */; };
+		D3F2C1F5134CD9D70023D75A /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F2C1F4134CD9D60023D75A /* Place.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D3F2C1C0134CC5870023D75A /* DraggableAnnotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DraggableAnnotation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F2C1C4134CC5870023D75A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D3F2C1C6134CC5870023D75A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3F2C1C8134CC5870023D75A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D3F2C1CC134CC5870023D75A /* DraggableAnnotation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DraggableAnnotation-Info.plist"; sourceTree = "<group>"; };
+		D3F2C1CE134CC5870023D75A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3F2C1D0134CC5870023D75A /* DraggableAnnotation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DraggableAnnotation-Prefix.pch"; sourceTree = "<group>"; };
+		D3F2C1D1134CC5870023D75A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3F2C1D3134CC5870023D75A /* DraggableAnnotationAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DraggableAnnotationAppDelegate.h; sourceTree = "<group>"; };
+		D3F2C1D4134CC5870023D75A /* DraggableAnnotationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DraggableAnnotationAppDelegate.m; sourceTree = "<group>"; };
+		D3F2C1D7134CC5870023D75A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D3F2C1D9134CC5870023D75A /* DraggableAnnotationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DraggableAnnotationViewController.h; sourceTree = "<group>"; };
+		D3F2C1DA134CC5870023D75A /* DraggableAnnotationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DraggableAnnotationViewController.m; sourceTree = "<group>"; };
+		D3F2C1DD134CC5870023D75A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DraggableAnnotationViewController.xib; sourceTree = "<group>"; };
+		D3F2C1E4134CC5DB0023D75A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D3F2C1E6134CC5E40023D75A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D3F2C1F3134CD9D60023D75A /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		D3F2C1F4134CD9D60023D75A /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3F2C1BD134CC5870023D75A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F2C1E7134CC5E40023D75A /* CoreLocation.framework in Frameworks */,
+				D3F2C1E5134CC5DB0023D75A /* MapKit.framework in Frameworks */,
+				D3F2C1C5134CC5870023D75A /* UIKit.framework in Frameworks */,
+				D3F2C1C7134CC5870023D75A /* Foundation.framework in Frameworks */,
+				D3F2C1C9134CC5870023D75A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3F2C1B5134CC5860023D75A = {
+			isa = PBXGroup;
+			children = (
+				D3F2C1CA134CC5870023D75A /* DraggableAnnotation */,
+				D3F2C1C3134CC5870023D75A /* Frameworks */,
+				D3F2C1C1134CC5870023D75A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3F2C1C1134CC5870023D75A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3F2C1C0134CC5870023D75A /* DraggableAnnotation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3F2C1C3134CC5870023D75A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3F2C1E6134CC5E40023D75A /* CoreLocation.framework */,
+				D3F2C1E4134CC5DB0023D75A /* MapKit.framework */,
+				D3F2C1C4134CC5870023D75A /* UIKit.framework */,
+				D3F2C1C6134CC5870023D75A /* Foundation.framework */,
+				D3F2C1C8134CC5870023D75A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3F2C1CA134CC5870023D75A /* DraggableAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				D3F2C1F3134CD9D60023D75A /* Place.h */,
+				D3F2C1F4134CD9D60023D75A /* Place.m */,
+				D3F2C1D3134CC5870023D75A /* DraggableAnnotationAppDelegate.h */,
+				D3F2C1D4134CC5870023D75A /* DraggableAnnotationAppDelegate.m */,
+				D3F2C1D6134CC5870023D75A /* MainWindow.xib */,
+				D3F2C1D9134CC5870023D75A /* DraggableAnnotationViewController.h */,
+				D3F2C1DA134CC5870023D75A /* DraggableAnnotationViewController.m */,
+				D3F2C1DC134CC5870023D75A /* DraggableAnnotationViewController.xib */,
+				D3F2C1CB134CC5870023D75A /* Supporting Files */,
+			);
+			path = DraggableAnnotation;
+			sourceTree = "<group>";
+		};
+		D3F2C1CB134CC5870023D75A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3F2C1CC134CC5870023D75A /* DraggableAnnotation-Info.plist */,
+				D3F2C1CD134CC5870023D75A /* InfoPlist.strings */,
+				D3F2C1D0134CC5870023D75A /* DraggableAnnotation-Prefix.pch */,
+				D3F2C1D1134CC5870023D75A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3F2C1BF134CC5870023D75A /* DraggableAnnotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3F2C1E1134CC5870023D75A /* Build configuration list for PBXNativeTarget "DraggableAnnotation" */;
+			buildPhases = (
+				D3F2C1BC134CC5870023D75A /* Sources */,
+				D3F2C1BD134CC5870023D75A /* Frameworks */,
+				D3F2C1BE134CC5870023D75A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DraggableAnnotation;
+			productName = DraggableAnnotation;
+			productReference = D3F2C1C0134CC5870023D75A /* DraggableAnnotation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3F2C1B7134CC5860023D75A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "National Tsing Hua University";
+			};
+			buildConfigurationList = D3F2C1BA134CC5860023D75A /* Build configuration list for PBXProject "DraggableAnnotation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D3F2C1B5134CC5860023D75A;
+			productRefGroup = D3F2C1C1134CC5870023D75A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3F2C1BF134CC5870023D75A /* DraggableAnnotation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3F2C1BE134CC5870023D75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F2C1CF134CC5870023D75A /* InfoPlist.strings in Resources */,
+				D3F2C1D8134CC5870023D75A /* MainWindow.xib in Resources */,
+				D3F2C1DE134CC5870023D75A /* DraggableAnnotationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3F2C1BC134CC5870023D75A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F2C1D2134CC5870023D75A /* main.m in Sources */,
+				D3F2C1D5134CC5870023D75A /* DraggableAnnotationAppDelegate.m in Sources */,
+				D3F2C1DB134CC5870023D75A /* DraggableAnnotationViewController.m in Sources */,
+				D3F2C1F5134CD9D70023D75A /* Place.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3F2C1CD134CC5870023D75A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F2C1CE134CC5870023D75A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D3F2C1D6134CC5870023D75A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F2C1D7134CC5870023D75A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D3F2C1DC134CC5870023D75A /* DraggableAnnotationViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F2C1DD134CC5870023D75A /* en */,
+			);
+			name = DraggableAnnotationViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3F2C1DF134CC5870023D75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3F2C1E0134CC5870023D75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D3F2C1E2134CC5870023D75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DraggableAnnotation/DraggableAnnotation-Prefix.pch";
+				INFOPLIST_FILE = "DraggableAnnotation/DraggableAnnotation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D3F2C1E3134CC5870023D75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DraggableAnnotation/DraggableAnnotation-Prefix.pch";
+				INFOPLIST_FILE = "DraggableAnnotation/DraggableAnnotation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3F2C1BA134CC5860023D75A /* Build configuration list for PBXProject "DraggableAnnotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F2C1DF134CC5870023D75A /* Debug */,
+				D3F2C1E0134CC5870023D75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3F2C1E1134CC5870023D75A /* Build configuration list for PBXNativeTarget "DraggableAnnotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F2C1E2134CC5870023D75A /* Debug */,
+				D3F2C1E3134CC5870023D75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3F2C1B7134CC5860023D75A /* Project object */;
+}

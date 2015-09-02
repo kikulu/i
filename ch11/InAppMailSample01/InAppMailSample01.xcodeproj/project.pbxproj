@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F64488132F4BFE00598041 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F64487132F4BFE00598041 /* UIKit.framework */; };
+		04F6448A132F4BFE00598041 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F64489132F4BFE00598041 /* Foundation.framework */; };
+		04F6448C132F4BFE00598041 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F6448B132F4BFE00598041 /* CoreGraphics.framework */; };
+		04F64492132F4BFE00598041 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04F64490132F4BFE00598041 /* InfoPlist.strings */; };
+		04F64495132F4BFE00598041 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F64494132F4BFE00598041 /* main.m */; };
+		04F64498132F4BFE00598041 /* InAppMailSample01AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F64497132F4BFE00598041 /* InAppMailSample01AppDelegate.m */; };
+		04F6449B132F4BFE00598041 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F64499132F4BFE00598041 /* MainWindow.xib */; };
+		04F6449E132F4BFE00598041 /* InAppMailSample01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F6449D132F4BFE00598041 /* InAppMailSample01ViewController.m */; };
+		04F644A1132F4BFE00598041 /* InAppMailSample01ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F6449F132F4BFE00598041 /* InAppMailSample01ViewController.xib */; };
+		04F644B2132F4DA000598041 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F644B1132F4DA000598041 /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04F64483132F4BFE00598041 /* InAppMailSample01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InAppMailSample01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F64487132F4BFE00598041 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04F64489132F4BFE00598041 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04F6448B132F4BFE00598041 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04F6448F132F4BFE00598041 /* InAppMailSample01-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InAppMailSample01-Info.plist"; sourceTree = "<group>"; };
+		04F64491132F4BFE00598041 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04F64493132F4BFE00598041 /* InAppMailSample01-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InAppMailSample01-Prefix.pch"; sourceTree = "<group>"; };
+		04F64494132F4BFE00598041 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04F64496132F4BFE00598041 /* InAppMailSample01AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InAppMailSample01AppDelegate.h; sourceTree = "<group>"; };
+		04F64497132F4BFE00598041 /* InAppMailSample01AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InAppMailSample01AppDelegate.m; sourceTree = "<group>"; };
+		04F6449A132F4BFE00598041 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		04F6449C132F4BFE00598041 /* InAppMailSample01ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InAppMailSample01ViewController.h; sourceTree = "<group>"; };
+		04F6449D132F4BFE00598041 /* InAppMailSample01ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InAppMailSample01ViewController.m; sourceTree = "<group>"; };
+		04F644A0132F4BFE00598041 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/InAppMailSample01ViewController.xib; sourceTree = "<group>"; };
+		04F644B1132F4DA000598041 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F64480132F4BFE00598041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F64488132F4BFE00598041 /* UIKit.framework in Frameworks */,
+				04F6448A132F4BFE00598041 /* Foundation.framework in Frameworks */,
+				04F6448C132F4BFE00598041 /* CoreGraphics.framework in Frameworks */,
+				04F644B2132F4DA000598041 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F64478132F4BFE00598041 = {
+			isa = PBXGroup;
+			children = (
+				04F6448D132F4BFE00598041 /* InAppMailSample01 */,
+				04F64486132F4BFE00598041 /* Frameworks */,
+				04F64484132F4BFE00598041 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04F64484132F4BFE00598041 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F64483132F4BFE00598041 /* InAppMailSample01.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F64486132F4BFE00598041 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04F644B1132F4DA000598041 /* MessageUI.framework */,
+				04F64487132F4BFE00598041 /* UIKit.framework */,
+				04F64489132F4BFE00598041 /* Foundation.framework */,
+				04F6448B132F4BFE00598041 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04F6448D132F4BFE00598041 /* InAppMailSample01 */ = {
+			isa = PBXGroup;
+			children = (
+				04F64496132F4BFE00598041 /* InAppMailSample01AppDelegate.h */,
+				04F64497132F4BFE00598041 /* InAppMailSample01AppDelegate.m */,
+				04F64499132F4BFE00598041 /* MainWindow.xib */,
+				04F6449C132F4BFE00598041 /* InAppMailSample01ViewController.h */,
+				04F6449D132F4BFE00598041 /* InAppMailSample01ViewController.m */,
+				04F6449F132F4BFE00598041 /* InAppMailSample01ViewController.xib */,
+				04F6448E132F4BFE00598041 /* Supporting Files */,
+			);
+			path = InAppMailSample01;
+			sourceTree = "<group>";
+		};
+		04F6448E132F4BFE00598041 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F6448F132F4BFE00598041 /* InAppMailSample01-Info.plist */,
+				04F64490132F4BFE00598041 /* InfoPlist.strings */,
+				04F64493132F4BFE00598041 /* InAppMailSample01-Prefix.pch */,
+				04F64494132F4BFE00598041 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F64482132F4BFE00598041 /* InAppMailSample01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F644A4132F4BFE00598041 /* Build configuration list for PBXNativeTarget "InAppMailSample01" */;
+			buildPhases = (
+				04F6447F132F4BFE00598041 /* Sources */,
+				04F64480132F4BFE00598041 /* Frameworks */,
+				04F64481132F4BFE00598041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InAppMailSample01;
+			productName = InAppMailSample01;
+			productReference = 04F64483132F4BFE00598041 /* InAppMailSample01.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F6447A132F4BFE00598041 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 04F6447D132F4BFE00598041 /* Build configuration list for PBXProject "InAppMailSample01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04F64478132F4BFE00598041;
+			productRefGroup = 04F64484132F4BFE00598041 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F64482132F4BFE00598041 /* InAppMailSample01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F64481132F4BFE00598041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F64492132F4BFE00598041 /* InfoPlist.strings in Resources */,
+				04F6449B132F4BFE00598041 /* MainWindow.xib in Resources */,
+				04F644A1132F4BFE00598041 /* InAppMailSample01ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F6447F132F4BFE00598041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F64495132F4BFE00598041 /* main.m in Sources */,
+				04F64498132F4BFE00598041 /* InAppMailSample01AppDelegate.m in Sources */,
+				04F6449E132F4BFE00598041 /* InAppMailSample01ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04F64490132F4BFE00598041 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F64491132F4BFE00598041 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04F64499132F4BFE00598041 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F6449A132F4BFE00598041 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		04F6449F132F4BFE00598041 /* InAppMailSample01ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F644A0132F4BFE00598041 /* en */,
+			);
+			name = InAppMailSample01ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F644A2132F4BFE00598041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04F644A3132F4BFE00598041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		04F644A5132F4BFE00598041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InAppMailSample01/InAppMailSample01-Prefix.pch";
+				INFOPLIST_FILE = "InAppMailSample01/InAppMailSample01-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04F644A6132F4BFE00598041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InAppMailSample01/InAppMailSample01-Prefix.pch";
+				INFOPLIST_FILE = "InAppMailSample01/InAppMailSample01-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F6447D132F4BFE00598041 /* Build configuration list for PBXProject "InAppMailSample01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F644A2132F4BFE00598041 /* Debug */,
+				04F644A3132F4BFE00598041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F644A4132F4BFE00598041 /* Build configuration list for PBXNativeTarget "InAppMailSample01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F644A5132F4BFE00598041 /* Debug */,
+				04F644A6132F4BFE00598041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F6447A132F4BFE00598041 /* Project object */;
+}

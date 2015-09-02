@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B181F77D12E3566100969DF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B181F77C12E3566100969DF5 /* UIKit.framework */; };
+		B181F77F12E3566100969DF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B181F77E12E3566100969DF5 /* Foundation.framework */; };
+		B181F78112E3566100969DF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B181F78012E3566100969DF5 /* CoreGraphics.framework */; };
+		B181F78712E3566100969DF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B181F78512E3566100969DF5 /* InfoPlist.strings */; };
+		B181F78A12E3566100969DF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B181F78912E3566100969DF5 /* main.m */; };
+		B181F78D12E3566100969DF5 /* TowerLiteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B181F78C12E3566100969DF5 /* TowerLiteAppDelegate.m */; };
+		B181F79012E3566100969DF5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B181F78E12E3566100969DF5 /* MainWindow.xib */; };
+		B181F79312E3566100969DF5 /* TowerLiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B181F79212E3566100969DF5 /* TowerLiteViewController.m */; };
+		B181F79612E3566100969DF5 /* TowerLiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B181F79412E3566100969DF5 /* TowerLiteViewController.xib */; };
+		B181F7A212E3568400969DF5 /* castle01.png in Resources */ = {isa = PBXBuildFile; fileRef = B181F7A012E3568400969DF5 /* castle01.png */; };
+		B181F7A312E3568400969DF5 /* castle02.png in Resources */ = {isa = PBXBuildFile; fileRef = B181F7A112E3568400969DF5 /* castle02.png */; };
+		B181F7A512E356C000969DF5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B181F7A412E356C000969DF5 /* CoreLocation.framework */; };
+		B181F7A712E356CB00969DF5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B181F7A612E356CB00969DF5 /* MapKit.framework */; };
+		B181F7AA12E3576900969DF5 /* Tower.m in Sources */ = {isa = PBXBuildFile; fileRef = B181F7A912E3576900969DF5 /* Tower.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B181F77812E3566100969DF5 /* TowerLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TowerLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B181F77C12E3566100969DF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B181F77E12E3566100969DF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B181F78012E3566100969DF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B181F78412E3566100969DF5 /* TowerLite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TowerLite-Info.plist"; sourceTree = "<group>"; };
+		B181F78612E3566100969DF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B181F78812E3566100969DF5 /* TowerLite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TowerLite-Prefix.pch"; sourceTree = "<group>"; };
+		B181F78912E3566100969DF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B181F78B12E3566100969DF5 /* TowerLiteAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TowerLiteAppDelegate.h; sourceTree = "<group>"; };
+		B181F78C12E3566100969DF5 /* TowerLiteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TowerLiteAppDelegate.m; sourceTree = "<group>"; };
+		B181F78F12E3566100969DF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B181F79112E3566100969DF5 /* TowerLiteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TowerLiteViewController.h; sourceTree = "<group>"; };
+		B181F79212E3566100969DF5 /* TowerLiteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TowerLiteViewController.m; sourceTree = "<group>"; };
+		B181F79512E3566100969DF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TowerLiteViewController.xib; sourceTree = "<group>"; };
+		B181F7A012E3568400969DF5 /* castle01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = castle01.png; sourceTree = "<group>"; };
+		B181F7A112E3568400969DF5 /* castle02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = castle02.png; sourceTree = "<group>"; };
+		B181F7A412E356C000969DF5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		B181F7A612E356CB00969DF5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		B181F7A812E3576900969DF5 /* Tower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tower.h; sourceTree = "<group>"; };
+		B181F7A912E3576900969DF5 /* Tower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tower.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B181F77512E3566100969DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B181F77D12E3566100969DF5 /* UIKit.framework in Frameworks */,
+				B181F77F12E3566100969DF5 /* Foundation.framework in Frameworks */,
+				B181F78112E3566100969DF5 /* CoreGraphics.framework in Frameworks */,
+				B181F7A512E356C000969DF5 /* CoreLocation.framework in Frameworks */,
+				B181F7A712E356CB00969DF5 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B181F76D12E3566100969DF5 = {
+			isa = PBXGroup;
+			children = (
+				B181F78212E3566100969DF5 /* TowerLite */,
+				B181F77B12E3566100969DF5 /* Frameworks */,
+				B181F77912E3566100969DF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B181F77912E3566100969DF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B181F77812E3566100969DF5 /* TowerLite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B181F77B12E3566100969DF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B181F7A612E356CB00969DF5 /* MapKit.framework */,
+				B181F7A412E356C000969DF5 /* CoreLocation.framework */,
+				B181F77C12E3566100969DF5 /* UIKit.framework */,
+				B181F77E12E3566100969DF5 /* Foundation.framework */,
+				B181F78012E3566100969DF5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B181F78212E3566100969DF5 /* TowerLite */ = {
+			isa = PBXGroup;
+			children = (
+				B181F78B12E3566100969DF5 /* TowerLiteAppDelegate.h */,
+				B181F78C12E3566100969DF5 /* TowerLiteAppDelegate.m */,
+				B181F78E12E3566100969DF5 /* MainWindow.xib */,
+				B181F79112E3566100969DF5 /* TowerLiteViewController.h */,
+				B181F79212E3566100969DF5 /* TowerLiteViewController.m */,
+				B181F79412E3566100969DF5 /* TowerLiteViewController.xib */,
+				B181F78312E3566100969DF5 /* Supporting Files */,
+				B181F7A812E3576900969DF5 /* Tower.h */,
+				B181F7A912E3576900969DF5 /* Tower.m */,
+			);
+			path = TowerLite;
+			sourceTree = "<group>";
+		};
+		B181F78312E3566100969DF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B181F7A012E3568400969DF5 /* castle01.png */,
+				B181F7A112E3568400969DF5 /* castle02.png */,
+				B181F78412E3566100969DF5 /* TowerLite-Info.plist */,
+				B181F78512E3566100969DF5 /* InfoPlist.strings */,
+				B181F78812E3566100969DF5 /* TowerLite-Prefix.pch */,
+				B181F78912E3566100969DF5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B181F77712E3566100969DF5 /* TowerLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B181F79912E3566100969DF5 /* Build configuration list for PBXNativeTarget "TowerLite" */;
+			buildPhases = (
+				B181F77412E3566100969DF5 /* Sources */,
+				B181F77512E3566100969DF5 /* Frameworks */,
+				B181F77612E3566100969DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TowerLite;
+			productName = TowerLite;
+			productReference = B181F77812E3566100969DF5 /* TowerLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B181F76F12E3566100969DF5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B181F77212E3566100969DF5 /* Build configuration list for PBXProject "TowerLite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B181F76D12E3566100969DF5;
+			productRefGroup = B181F77912E3566100969DF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B181F77712E3566100969DF5 /* TowerLite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B181F77612E3566100969DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B181F78712E3566100969DF5 /* InfoPlist.strings in Resources */,
+				B181F79012E3566100969DF5 /* MainWindow.xib in Resources */,
+				B181F79612E3566100969DF5 /* TowerLiteViewController.xib in Resources */,
+				B181F7A212E3568400969DF5 /* castle01.png in Resources */,
+				B181F7A312E3568400969DF5 /* castle02.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B181F77412E3566100969DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B181F78A12E3566100969DF5 /* main.m in Sources */,
+				B181F78D12E3566100969DF5 /* TowerLiteAppDelegate.m in Sources */,
+				B181F79312E3566100969DF5 /* TowerLiteViewController.m in Sources */,
+				B181F7AA12E3576900969DF5 /* Tower.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B181F78512E3566100969DF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B181F78612E3566100969DF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B181F78E12E3566100969DF5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B181F78F12E3566100969DF5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B181F79412E3566100969DF5 /* TowerLiteViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B181F79512E3566100969DF5 /* en */,
+			);
+			name = TowerLiteViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B181F79712E3566100969DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B181F79812E3566100969DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B181F79A12E3566100969DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TowerLite/TowerLite-Prefix.pch";
+				INFOPLIST_FILE = "TowerLite/TowerLite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B181F79B12E3566100969DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TowerLite/TowerLite-Prefix.pch";
+				INFOPLIST_FILE = "TowerLite/TowerLite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B181F77212E3566100969DF5 /* Build configuration list for PBXProject "TowerLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B181F79712E3566100969DF5 /* Debug */,
+				B181F79812E3566100969DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B181F79912E3566100969DF5 /* Build configuration list for PBXNativeTarget "TowerLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B181F79A12E3566100969DF5 /* Debug */,
+				B181F79B12E3566100969DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B181F76F12E3566100969DF5 /* Project object */;
+}
